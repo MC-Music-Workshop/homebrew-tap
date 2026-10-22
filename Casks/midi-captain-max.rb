@@ -12,8 +12,6 @@ cask "midi-captain-max" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :catalina"
-
   app "MIDI Captain MAX Config Editor.app"
 
   zap trash: [
