@@ -1,6 +1,6 @@
 cask "midi-captain-max@beta" do
-  version "1.14.0"
-  sha256 "eefa571a418c6a7a15144e70663a9f25739daa1baff33ce532d6045d730c575e"
+  version "1.15.0-alpha.3"
+  sha256 "402380e8583125a4c7d914398ff54b53d093a3a5e67ab52c705cf6a98c8afd96"
 
   url "https://github.com/MC-Music-Workshop/midi-captain-max/releases/download/v#{version}/MIDI-Captain-MAX-Config-Editor-v#{version}.dmg"
   name "MIDI Captain MAX Config Editor Beta"
