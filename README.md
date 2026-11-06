@@ -8,6 +8,14 @@ Homebrew casks for [MIDI Captain MAX](https://github.com/MC-Music-Workshop/midi-
 brew install --cask mc-music-workshop/tap/midi-captain-max
 ```
 
+If MIDI Captain MAX is already installed outside Homebrew, you can ask Homebrew to adopt the existing app:
+
+```bash
+brew install --cask --adopt mc-music-workshop/tap/midi-captain-max
+```
+
+Adoption works only when the existing app matches the cask artifact. Otherwise, move or uninstall the existing app before installing with Homebrew.
+
 To try betas and release candidates, use the beta cask instead. It follows the newest release of any kind, so it also picks up the stable release once that ships:
 
 ```bash
