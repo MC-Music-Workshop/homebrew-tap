@@ -26,17 +26,19 @@ The two casks can't be installed together. To switch, `brew uninstall --cask` on
 
 ## Boomerang+
 
-[Boomerang+](https://github.com/MC-Music-Workshop/boomerang-plugin) (VST3, AU and standalone app) has a beta cask only, until it has a stable release:
+[Boomerang+](https://github.com/MC-Music-Workshop/boomerang-plugin) (VST3, AU and standalone app):
 
 ```bash
-brew install --cask mc-music-workshop/tap/boomerang@beta
+brew install --cask mc-music-workshop/tap/boomerang
 ```
+
+For alphas and betas too, use `boomerang@beta` instead. Like the MIDI Captain MAX casks, the two can't be installed together.
 
 ## Upgrade
 
 ```bash
 brew upgrade --cask midi-captain-max
-brew upgrade --cask boomerang@beta
+brew upgrade --cask boomerang
 ```
 
 ## Updates

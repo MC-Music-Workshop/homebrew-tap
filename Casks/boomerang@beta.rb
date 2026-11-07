@@ -11,6 +11,8 @@ cask "boomerang@beta" do
     skip "Bumped automatically by the boomerang-plugin release workflow"
   end
 
+  conflicts_with cask: "boomerang"
+
   pkg "Boomerang-#{version}.pkg"
 
   uninstall pkgutil: [
