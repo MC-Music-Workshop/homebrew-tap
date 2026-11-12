@@ -1,6 +1,6 @@
 cask "boomerang@beta" do
-  version "2.6.0"
-  sha256 "08d61437210f08f9543ea9370ce7be7e09d917d2e3e2ea9fc174c7e119109e63"
+  version "2.6.1-beta.1"
+  sha256 "10d3d6070898399563195e0b589ff558b5d9eef7f1d6197c9d6a3fc0a1e1a254"
 
   url "https://github.com/MC-Music-Workshop/boomerang-plugin/releases/download/v#{version}/Boomerang-#{version}.pkg"
   name "Boomerang+ Beta"
