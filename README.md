@@ -1,6 +1,6 @@
 # MC Music Workshop Homebrew Tap
 
-Homebrew casks for [MIDI Captain MAX](https://github.com/MC-Music-Workshop/midi-captain-max).
+Homebrew casks and formulae from MC Music Workshop.
 
 ## Install
 
@@ -32,13 +32,24 @@ The two casks can't be installed together. To switch, `brew uninstall --cask` on
 brew install --cask mc-music-workshop/tap/boomerang@beta
 ```
 
+## am2sp
+
+[am2sp](https://github.com/MC-Music-Workshop/am2s) turns an Apple Music link, or the song playing in Music, into a Spotify link for the same song or album:
+
+```bash
+brew install mc-music-workshop/tap/am2sp
+```
+
+Follow the post-install note to add the **Copy Spotify Link** Shortcut to the Services menu.
+
 ## Upgrade
 
 ```bash
 brew upgrade --cask midi-captain-max
 brew upgrade --cask boomerang@beta
+brew upgrade am2sp
 ```
 
 ## Updates
 
-The casks are bumped automatically when a release is published in their project repo (`.github/workflows/homebrew.yml` there). The `@beta` casks follow every release; `midi-captain-max` follows stable releases only.
+The `am2sp` formula is bumped by hand for now. The casks are bumped automatically when a release is published in their project repo (`.github/workflows/homebrew.yml` there). The `@beta` casks follow every release; `midi-captain-max` follows stable releases only.
