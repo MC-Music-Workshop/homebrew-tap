@@ -2,7 +2,7 @@
 
 Homebrew casks and formulae from MC Music Workshop.
 
-## Install
+## MIDI Captain MAX
 
 ```bash
 brew install --cask mc-music-workshop/tap/midi-captain-max
