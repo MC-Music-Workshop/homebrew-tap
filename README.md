@@ -52,7 +52,7 @@ Follow the post-install note to add the **Copy Spotify Link** Shortcut to the Se
 
 ```bash
 brew upgrade --cask midi-captain-max
-brew upgrade --cask boomerang@beta
+brew upgrade --cask boomerang
 brew upgrade am2sp
 ```
 
