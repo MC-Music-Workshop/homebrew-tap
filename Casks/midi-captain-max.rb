@@ -12,6 +12,8 @@ cask "midi-captain-max" do
     strategy :github_latest
   end
 
+  conflicts_with cask: ["midi-captain-max@beta", "midi-captain-max@alpha"]
+
   app "MIDI Captain MAX Config Editor.app"
 
   zap trash: [

@@ -11,7 +11,7 @@ cask "midi-captain-max@beta" do
     skip "Bumped automatically by the midi-captain-max release workflow"
   end
 
-  conflicts_with cask: "midi-captain-max"
+  conflicts_with cask: ["midi-captain-max", "midi-captain-max@alpha"]
 
   app "MIDI Captain MAX Config Editor.app"
 
