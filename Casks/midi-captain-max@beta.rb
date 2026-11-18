@@ -1,8 +1,8 @@
 cask "midi-captain-max@beta" do
-  version "1.15.1-beta.1"
-  sha256 "6f1d143d3b8ab097608cf71d8b74ea4adeb2190975ff5c0a3b820c1e56a56554"
+  version "1.16.0-beta.1"
+  sha256 "f5a53de0b176a383c285d1feffdced0460f60d720e33621d267820d147dea56b"
 
-  url "https://github.com/MC-Music-Workshop/midi-captain-max/releases/download/v#{version}/MIDI-Captain-MAX-Config-Editor-v#{version}.dmg"
+  url "https://github.com/MC-Music-Workshop/midi-captain-max/releases/download/v#{version}/MIDI-Captain-MAX-Config-Editor-v#{version}.app.tar.gz"
   name "MIDI Captain MAX Config Editor Beta"
   desc "Pre-release config editor and firmware installer for MIDI Captain foot controllers"
   homepage "https://github.com/MC-Music-Workshop/midi-captain-max"
@@ -11,6 +11,7 @@ cask "midi-captain-max@beta" do
     skip "Bumped automatically by the midi-captain-max release workflow"
   end
 
+  auto_updates true
   conflicts_with cask: ["midi-captain-max", "midi-captain-max@alpha"]
 
   app "MIDI Captain MAX Config Editor.app"
